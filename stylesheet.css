@@ -1,0 +1,88 @@
+body {
+    background-color: aliceblue;
+    font-family: 'PT Serif', serif;
+}
+
+:target {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-family: 'Patua One', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Patua One', cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 19px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    margin-top: 40px;
+    width: 470px;
+    margin-bottom: 40px;
+}
+
+#Reference {
+    text-align: left;
+    margin-left: 37px;
+}
+
+#navbar {
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+
+#navbar a {
+    background-color: darkgray;
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: white;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 700px){
+    #navbar a {
+        font-size: 14px;
+        padding: 10px
+    }
+}
+
+
